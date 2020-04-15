@@ -1,0 +1,8 @@
+|clk_divn_5
+clk => q2.CLK
+clk => q1.CLK
+clk => q0.CLK
+clk => q2temp.CLK
+clk_out << clk_out.DB_MAX_OUTPUT_PORT_TYPE
+
+

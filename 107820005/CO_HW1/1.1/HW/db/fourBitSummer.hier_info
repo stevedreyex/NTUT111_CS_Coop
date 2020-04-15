@@ -1,0 +1,48 @@
+|fourBitSummer
+a[3] => a[3].IN1
+a[2] => a[2].IN1
+a[1] => a[1].IN1
+a[0] => a[0].IN1
+b[3] => b[3].IN1
+b[2] => b[2].IN1
+b[1] => b[1].IN1
+b[0] => b[0].IN1
+sum[3] << fullAdder:basamakBasamakTopla[3].topla.port3
+sum[2] << fullAdder:basamakBasamakTopla[2].topla.port3
+sum[1] << fullAdder:basamakBasamakTopla[1].topla.port3
+sum[0] << fullAdder:basamakBasamakTopla[0].topla.port3
+carry << fullAdder:basamakBasamakTopla[3].topla.port4
+
+
+|fourBitSummer|fullAdder:basamakBasamakTopla[0].topla
+a => Add0.IN1
+b => Add1.IN4
+carryIn => Add0.IN2
+sum <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+carryOut <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|fourBitSummer|fullAdder:basamakBasamakTopla[1].topla
+a => Add0.IN1
+b => Add1.IN4
+carryIn => Add0.IN2
+sum <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+carryOut <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|fourBitSummer|fullAdder:basamakBasamakTopla[2].topla
+a => Add0.IN1
+b => Add1.IN4
+carryIn => Add0.IN2
+sum <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+carryOut <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|fourBitSummer|fullAdder:basamakBasamakTopla[3].topla
+a => Add0.IN1
+b => Add1.IN4
+carryIn => Add0.IN2
+sum <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+carryOut <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+
+

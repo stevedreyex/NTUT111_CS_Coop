@@ -1,0 +1,14 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/Dreyex/Desktop/107820005_/1.2/source/clk_divn_5_tb.v
+source_file = 1, C:/Users/Dreyex/Desktop/107820005_/1.2/source/clk_divn_5.v
+source_file = 1, C:/Users/Dreyex/Desktop/107820005_/1.2/HW/db/clk_divn_5.cbx.xml
+design_name = clk_divn_5
+instance = comp, \clk_out~output , clk_out~output, clk_divn_5, 1
+instance = comp, \clk~input , clk~input, clk_divn_5, 1
+instance = comp, \clk~inputclkctrl , clk~inputclkctrl, clk_divn_5, 1
+instance = comp, \q1~0 , q1~0, clk_divn_5, 1
+instance = comp, \clk_out~0 , clk_out~0, clk_divn_5, 1
+design_name = hard_block
+instance = comp, \~ALTERA_ASDO_DATA1~~ibuf , ~ALTERA_ASDO_DATA1~~ibuf, hard_block, 1
+instance = comp, \~ALTERA_FLASH_nCE_nCSO~~ibuf , ~ALTERA_FLASH_nCE_nCSO~~ibuf, hard_block, 1
+instance = comp, \~ALTERA_DATA0~~ibuf , ~ALTERA_DATA0~~ibuf, hard_block, 1

@@ -1,0 +1,79 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Dreyex/Desktop/107820005_/1.1/HW/simulation/modelsim
+vfourBitSummer
+Z1 !s110 1586925519
+!i10b 1
+!s100 Um8Rf[YCX3cgBWhe=LMiZ0
+IF4h:ejB3QAVc@WcbRT9C@3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1586924715
+Z4 8C:/Users/Dreyex/Desktop/107820005_/1.1/source/fourBitSummer.v
+Z5 FC:/Users/Dreyex/Desktop/107820005_/1.1/source/fourBitSummer.v
+L0 11
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1586925519.000000
+Z8 !s107 C:/Users/Dreyex/Desktop/107820005_/1.1/source/fourBitSummer.v|
+Z9 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Dreyex/Desktop/107820005_/1.1/source|C:/Users/Dreyex/Desktop/107820005_/1.1/source/fourBitSummer.v|
+!i113 1
+Z10 o-vlog01compat -work work
+Z11 !s92 -vlog01compat -work work +incdir+C:/Users/Dreyex/Desktop/107820005_/1.1/source
+Z12 tCvgOpt 0
+nfour@bit@summer
+vfourBitSummer_tb
+R1
+!i10b 1
+!s100 4[[9f3K[;ln`J9F;S>jZ^1
+ILLb0>Q]@WFU;01egNlkBB1
+R2
+R0
+w1586925364
+8C:/Users/Dreyex/Desktop/107820005_/1.1/HW/../source/fourBitSummer_tb.v
+FC:/Users/Dreyex/Desktop/107820005_/1.1/HW/../source/fourBitSummer_tb.v
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/Dreyex/Desktop/107820005_/1.1/HW/../source/fourBitSummer_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Dreyex/Desktop/107820005_/1.1/HW/../source|C:/Users/Dreyex/Desktop/107820005_/1.1/HW/../source/fourBitSummer_tb.v|
+!i113 1
+R10
+!s92 -vlog01compat -work work +incdir+C:/Users/Dreyex/Desktop/107820005_/1.1/HW/../source
+R12
+nfour@bit@summer_tb
+vfullAdder
+R1
+!i10b 1
+!s100 @H;;9HBVcNK^Uka`]?P5_1
+IP6_EJ^Ac8RbPL5Sfe`HA?1
+R2
+R0
+R3
+R4
+R5
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+nfull@adder
