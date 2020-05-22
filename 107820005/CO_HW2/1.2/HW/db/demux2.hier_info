@@ -1,0 +1,19 @@
+|demux2
+a => WideOr0.IN0
+a => z.IN0
+a => z.IN0
+a => z.IN0
+b => WideOr0.IN1
+b => z.IN1
+b => z.IN1
+b => z.IN1
+enable => z.IN1
+enable => z.IN1
+enable => z.OUTPUTSELECT
+enable => WideOr0.IN2
+z[0] << WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+z[1] << z.DB_MAX_OUTPUT_PORT_TYPE
+z[2] << z.DB_MAX_OUTPUT_PORT_TYPE
+z[3] << z.DB_MAX_OUTPUT_PORT_TYPE
+
+

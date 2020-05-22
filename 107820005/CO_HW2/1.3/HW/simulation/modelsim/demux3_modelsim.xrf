@@ -1,0 +1,13 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/GameToGo/Desktop/107820005/1.3/source/demux3.v
+source_file = 1, C:/Users/GameToGo/Desktop/107820005/1.3/HW/db/demux3.cbx.xml
+design_name = demux3
+instance = comp, \z~output , z~output, demux3, 1
+instance = comp, \enable~input , enable~input, demux3, 1
+instance = comp, \b~input , b~input, demux3, 1
+instance = comp, \a~input , a~input, demux3, 1
+instance = comp, \Decoder0~0 , Decoder0~0, demux3, 1
+design_name = hard_block
+instance = comp, \~ALTERA_ASDO_DATA1~~ibuf , ~ALTERA_ASDO_DATA1~~ibuf, hard_block, 1
+instance = comp, \~ALTERA_FLASH_nCE_nCSO~~ibuf , ~ALTERA_FLASH_nCE_nCSO~~ibuf, hard_block, 1
+instance = comp, \~ALTERA_DATA0~~ibuf , ~ALTERA_DATA0~~ibuf, hard_block, 1
