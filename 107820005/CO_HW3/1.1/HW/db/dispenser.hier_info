@@ -1,0 +1,19 @@
+|demux1
+a => n1.IN0
+a => n3.IN0
+a => n0.IN0
+a => n2.IN0
+b => n2.IN1
+b => n3.IN1
+b => n0.IN1
+b => n1.IN1
+enable => n0.IN2
+enable => n1.IN2
+enable => n2.IN2
+enable => n3.IN2
+z[0] << n0.DB_MAX_OUTPUT_PORT_TYPE
+z[1] << n1.DB_MAX_OUTPUT_PORT_TYPE
+z[2] << n2.DB_MAX_OUTPUT_PORT_TYPE
+z[3] << n3.DB_MAX_OUTPUT_PORT_TYPE
+
+
